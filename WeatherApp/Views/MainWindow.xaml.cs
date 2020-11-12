@@ -18,7 +18,8 @@ namespace WeatherApp
 
             vm = new TemperatureViewModel();
 
-            DataContext = vm;           
+            DataContext = vm;
+            AppConfiguration.GetValue("config");
         }
     }
 }
