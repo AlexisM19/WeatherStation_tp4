@@ -30,7 +30,7 @@ namespace WeatherApp.Services
 
             //long l = Convert.ToInt64(DateTime.UnixEpoch);
             // theres a shit about the time hour (pc stuck 2hrs too early)
-            DateTime dttime = new DateTime(1970,1,1,0,0,0, DateTimeKind.Utc);
+            DateTime dttime = new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc);
 
             temp.DateTime = dttime.AddSeconds(currentWeather.DateTime).ToLocalTime();
 

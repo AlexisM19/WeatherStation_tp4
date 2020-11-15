@@ -10,8 +10,6 @@ namespace WeatherApp
     /// </summary>
     public partial class MainWindow : Window
     {
-        TemperatureViewModel vm;
-
         public MainWindow()
         {
             InitializeComponent();

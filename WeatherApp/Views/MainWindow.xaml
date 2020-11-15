@@ -25,7 +25,9 @@
                 <TextBlock Grid.Row="0" Grid.Column="0" Text="Date: "/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Temperature: "/>
 
-                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding CurrentTemp.Temperature}"></TextBlock>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding CurrentTemp.Temperature}"/>
+                <TextBlock Grid.Row="1" Grid.Column="1" Text="            (°C)"/>
+
                 <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding CurrentTemp.DateTime}"/>
             </Grid>
         </StackPanel>

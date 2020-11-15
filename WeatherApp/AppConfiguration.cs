@@ -20,12 +20,8 @@ namespace WeatherApp
         {
             var builder = new ConfigurationBuilder();
             builder.AddJsonFile("appsettings.json", true, true);
-
-
             builder.AddUserSecrets<MainWindow>();
             configuration = builder.Build();
-            
-
         }
     }
 }
