@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\OpenWeatherTest\OpenWeatherAPI\OpenWeatherAPI.csproj">
-      <Private>true</Private>
+      <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
     </ProjectReference>
   </ItemGroup>
 
