@@ -12,7 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\OpenWeatherTest\OpenWeatherAPI\OpenWeatherAPI.csproj" />
+    <ProjectReference Include="..\OpenWeatherAPI\OpenWeatherAPI.csproj" />
   </ItemGroup>
 
 </Project>
